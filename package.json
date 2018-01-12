@@ -1,0 +1,27 @@
+{
+  "name": "mywebrtc",
+  "version": "1.0.0",
+  "description": "RTC server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vupham1995/RTCwebServer.git"
+  },
+  "author": "Vu Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vupham1995/RTCwebServer/issues"
+  },
+  "homepage": "https://github.com/vupham1995/RTCwebServer#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "open": "0.0.5",
+    "socket.io": "^2.0.4"
+  }
+}
